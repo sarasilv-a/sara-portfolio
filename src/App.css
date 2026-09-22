@@ -949,95 +949,78 @@ button:focus-visible {
 
   /* PROJECTS */
 
-  .projects-section {
-    padding-top: 60px;
-    padding-bottom: 65px;
-  }
+.projects-section {
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
 
-  .projects-grid {
-    gap: 24px;
-  }
+.projects-grid {
+  gap: 22px;
+}
 
-  .project-card {
-    width: 100%;
+.project-card {
+  width: 100%;
+  grid-template-columns: 1fr;
+  gap: 20px;
 
-    grid-template-columns: 1fr;
-    gap: 24px;
+  padding: 16px 16px 22px;
 
-    padding: 18px;
+  border-radius: 20px;
+  overflow: hidden;
+}
 
-    border-radius: 20px;
-  }
+.project-card:nth-child(1) {
+  border-radius: 20px 55px 20px 20px;
+}
 
-  .project-card:nth-child(1) {
-    border-radius: 20px 55px 20px 20px;
-  }
+.project-image {
+  width: 100%;
+  height: auto;
+  min-width: 0;
 
-  .project-image {
-    width: 100%;
-    height: auto;
+  aspect-ratio: 16 / 10;
 
-    min-width: 0;
+  border-radius: 12px;
+}
 
-    aspect-ratio: 16 / 10;
+.project-info {
+  width: 100%;
+  min-width: 0;
 
-    border-radius: 12px;
-  }
+  padding-bottom: 4px;
+}
 
-  .project-info {
-    width: 100%;
-    min-width: 0;
-  }
+.project-info h3 {
+  margin: 0;
+  font-size: 25px;
+  line-height: 1.1;
+}
 
-  .project-info h3 {
-    font-size: 27px;
-    line-height: 1.1;
-  }
+.project-description {
+  margin-top: 14px;
 
-  .project-description {
-    margin-top: 14px;
+  font-size: 14px;
+  line-height: 1.6;
+}
 
-    font-size: 15px;
-    line-height: 1.6;
-  }
+.project-technologies {
+  margin-top: 18px;
+  gap: 7px;
+}
 
-  .project-technologies {
-    margin-top: 18px;
+.project-technologies span {
+  padding: 6px 10px;
+  font-size: 11px;
+}
 
-    gap: 7px;
-  }
+.project-info a {
+  display: inline-block;
 
-  .project-technologies span {
-    padding: 6px 10px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 
-    font-size: 11px;
-  }
-
-  .project-info a {
-    margin-top: 22px;
-  }
-
-  .all-projects-card {
-    width: 100%;
-
-    margin-top: 24px;
-
-    min-height: 135px;
-
-    padding: 28px 24px;
-
-    justify-content: center;
-
-    border-radius: 20px 20px 20px 55px;
-
-    background-position: center;
-  }
-
-  .all-projects-card h3 {
-    font-size: 28px;
-    text-align: center;
-  }
-
+  font-size: 13px;
+}
 
   /* SKILLS */
 
@@ -1239,6 +1222,7 @@ button:focus-visible {
   }
 
   /* PROJECTS */
+  
   .project-card {
     padding: 14px;
     gap: 20px;
