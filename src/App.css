@@ -960,13 +960,17 @@ button:focus-visible {
 
 .project-card {
   width: 100%;
+  height: auto;
+  min-height: 0;
+
   grid-template-columns: 1fr;
   gap: 20px;
 
-  padding: 16px 16px 22px;
+  padding: 16px 16px 28px;
 
   border-radius: 20px;
-  overflow: hidden;
+
+  overflow: visible;
 }
 
 .project-card:nth-child(1) {
@@ -986,8 +990,23 @@ button:focus-visible {
 .project-info {
   width: 100%;
   min-width: 0;
+  height: auto;
 
-  padding-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+
+  padding-bottom: 0;
+}
+
+.project-info a {
+  position: static;
+
+  display: inline-block;
+  align-self: flex-start;
+
+  margin-top: 22px;
+
+  font-size: 13px;
 }
 
 .project-info h3 {
@@ -1222,11 +1241,6 @@ button:focus-visible {
   }
 
   /* PROJECTS */
-  
-  .project-card {
-    padding: 14px;
-    gap: 20px;
-  }
 
   .project-info h3 {
     font-size: 25px;
