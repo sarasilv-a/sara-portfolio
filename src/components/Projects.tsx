@@ -1,7 +1,7 @@
 import ProjectCard from './ProjectCard'
-import urbanTrafficImg from '../assets/project1.png'
-import HospitalImg from '../assets/project2.png'
-import MachineImg from '../assets/project3.png'
+import urbanTrafficImg from '../assets/project1.webp'
+import HospitalImg from '../assets/project2.webp'
+import MachineImg from '../assets/project3.webp'
 
 function Projects() {
   const projects = [

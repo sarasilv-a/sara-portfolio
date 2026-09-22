@@ -36,18 +36,18 @@ function Hero() {
             href="https://linkedin.com/"
             target="_blank"
             rel="noreferrer"
-            aria-label="LinkedIn"
+            aria-label="Sara Silva on LinkedIn"
           >
-            <FaLinkedinIn />
+            <FaLinkedinIn aria-hidden="true" />
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/sarasilv-a"
             target="_blank"
             rel="noreferrer"
-            aria-label="GitHub"
+            aria-label="Sara Silva on GitHub"
           >
-            <FaGithub />
+            <FaGithub aria-hidden="true" />
           </a>
         </div>
       </div>
@@ -55,7 +55,7 @@ function Hero() {
       <div className="hero-photo">
         <img
           src={saraPhoto}
-          alt="Sara"
+          alt="Sara Silva"
           className="hero-photo-image"
         />
       </div>

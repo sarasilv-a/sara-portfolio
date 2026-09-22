@@ -48,7 +48,7 @@ function Contact() {
 
           <a
             className="contact-item"
-            href="https://github.com/"
+            href="https://github.com/sarasilv-a"
             target="_blank"
             rel="noreferrer"
           >
